@@ -34,7 +34,7 @@ function bahwp_register_options() {
 function bahwp_options_page() {
     ?>
         <div class="wrap">
-            <?php screen_icon ?>
+            <?php screen_icon(); ?>
             <h2>BAH WordPress Plugin Settings</h2>
             <?php do_settings_sections('bahwp-options'); ?>
             <?php submit_button(); ?>
